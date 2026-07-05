@@ -102,6 +102,19 @@ install of Illwinter's Floorplan — override with `--icons` / `--also` as neede
 The skill's instructions and reference docs are written in Italian (the campaign's
 language); the code and this README are in English.
 
+## Disclaimer
+
+This is an **unofficial, third-party** tool. It is **not affiliated with, endorsed by,
+or sponsored by Illwinter Game Design**. *Illwinter's Floorplan Generator* is a product
+of [Illwinter Game Design](https://www.illwinter.com/), and its name is used here only to
+describe compatibility (nominative fair use).
+
+This repository contains **only original code and documentation**. It does **not** include
+or redistribute any Illwinter software, executables, or art assets (icons, TGA files, etc.).
+To use this skill you must **own a legitimate copy** of Illwinter's Floorplan Generator; the
+scripts merely drive its documented command-line interface and composite furniture using the
+icons already installed on your machine.
+
 ## License
 
 [MIT](LICENSE) © 2026 Pedro José Zei (oLdpZ)
