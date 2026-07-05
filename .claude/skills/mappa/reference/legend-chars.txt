@@ -1,0 +1,39 @@
+# Convenzione caratteri ASCII per la skill /mappa.
+# Ogni riga: <carattere> <spazio> <descrizione>. Il PRIMO carattere e' quello legale.
+# Righe che iniziano con '#' sono commenti. Lo spazio ' ' e' sempre legale (= Cave Wall).
+#
+# FONTE AUTOREVOLE: output di `illfloor.exe --listascii` (vedi
+# floorplan-ascii-ufficiale.txt). La legenda ASCII di Floorplan e' HARDCODED e NON
+# estendibile: i terreni/icone custom aggiunti in %AppData%\illfloor\ NON ricevono
+# un carattere (verificato). Via ASCII si importano SOLO terreni + 3 icone: Door,
+# Bush, Tree. I MOBILI (tavolo, sedia, cassa, letto...) NON sono importabili via
+# ASCII: si piazzano a mano nell'editor e si elencano nel manifest della nota.
+# Qui includiamo il sottoinsieme utile per interni/dungeon della campagna.
+#
+# --- Muri ---
+W muro di pietra
+O muro di legno
+# (spazio) = muro di caverna / esterno
+# --- Pavimenti ---
+. pavimento di caverna
+: pavimento di pietra
+x pavimento di legno
+M pavimento di marmo
+L ciottoli (cobblestones)
+G pavimento di granito
+C pavimento a scacchi
+9 pavimento di metallo
+# --- Terreni esterni ---
+e terra battuta (earth)
+g erba scura (dark grass)
+p pianura (plains)
+# --- Liquidi / elementi ---
+~ mare / acqua
+r acqua
+l lava
+4 fuoco
+S fogna
+# --- Icone importabili via ASCII (le UNICHE 3) ---
+D porta
+T albero
+B cespuglio

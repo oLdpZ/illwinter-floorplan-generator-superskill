@@ -1,0 +1,36 @@
+# Legenda ARREDO per la skill /mappa (livello mobili, compositing via Pillow).
+# Questi caratteri sono NOSTRI (non di Floorplan): vengono sovrapposti al PNG
+# dell'architettura dallo script _scripts/floorplan_furnish.py.
+#
+# Formato riga: <carattere> <nome_tga> <etichetta umana...>
+# Il PRIMO carattere e' la chiave. Le righe che iniziano con '#' sono commenti.
+# Nel livello arredo, '.' e lo spazio = cella VUOTA (nessun mobile).
+#
+# Le TGA stanno in: <Illfloor>\data\icons\Furniture\  (64x64 = 1 cella,
+# 128x128 = 2x2 celle, 32x32 = piu' piccola). L'icona viene CENTRATA sulla cella.
+#
+# --- Tavoli e sedute ---
+t table_1 tavolo
+T table_chairs_1 tavolo con sedie
+h chair_1 sedia
+b bench_1 panca
+d desk1 scrivania
+# --- Contenitori ---
+c chest_1 cassa / baule
+w wooden_crate_1 cassa di legno
+k barrel_top_1 barile / botte
+# --- Mobili a muro ---
+u bookshelf_1 scaffale / libreria
+a altar_1 altare
+# --- Letti (2x2) ---
+e bed_1 letto
+E bed_double_1 letto matrimoniale
+# --- Fuoco / luce ---
+f fireplace_1 focolare / camino
+o candle_1__l candela
+# --- Decori ---
+r rug_1__lc tappeto (2x2)
+p pot_small_1__l vaso
+v curtain_1 tenda
+# --- Custom (icone generate, ~2-3 celle) ---
+P palo_orrore_vegetale palo con cadavere avvolto da viti (Orrore Vegetale)
