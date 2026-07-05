@@ -101,3 +101,7 @@ install of Illwinter's Floorplan — override with `--icons` / `--also` as neede
 
 The skill's instructions and reference docs are written in Italian (the campaign's
 language); the code and this README are in English.
+
+## License
+
+[MIT](LICENSE) © 2026 Pedro José Zei (oLdpZ)
